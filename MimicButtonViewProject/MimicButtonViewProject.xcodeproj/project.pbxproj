@@ -13,6 +13,7 @@
 		DA81F5DA1E387729001D8DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA81F5D81E387729001D8DE5 /* Main.storyboard */; };
 		DA81F5DC1E387729001D8DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA81F5DB1E387729001D8DE5 /* Assets.xcassets */; };
 		DA81F5DF1E387729001D8DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA81F5DD1E387729001D8DE5 /* LaunchScreen.storyboard */; };
+		DA81F5E91E3877DA001D8DE5 /* MimicButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA81F5E81E3877DA001D8DE5 /* MimicButtonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DA81F5DB1E387729001D8DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA81F5DE1E387729001D8DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA81F5E01E38772A001D8DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA81F5E71E3877DA001D8DE5 /* MimicButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MimicButtonView.h; sourceTree = "<group>"; };
+		DA81F5E81E3877DA001D8DE5 /* MimicButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MimicButtonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		DA81F5CE1E387729001D8DE5 /* MimicButtonViewProject */ = {
 			isa = PBXGroup;
 			children = (
+				DA81F5E61E3877B0001D8DE5 /* MimicButtonView */,
 				DA81F5D21E387729001D8DE5 /* AppDelegate.h */,
 				DA81F5D31E387729001D8DE5 /* AppDelegate.m */,
 				DA81F5D51E387729001D8DE5 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				DA81F5D01E387729001D8DE5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA81F5E61E3877B0001D8DE5 /* MimicButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				DA81F5E71E3877DA001D8DE5 /* MimicButtonView.h */,
+				DA81F5E81E3877DA001D8DE5 /* MimicButtonView.m */,
+			);
+			path = MimicButtonView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 			files = (
 				DA81F5D71E387729001D8DE5 /* ViewController.m in Sources */,
 				DA81F5D41E387729001D8DE5 /* AppDelegate.m in Sources */,
+				DA81F5E91E3877DA001D8DE5 /* MimicButtonView.m in Sources */,
 				DA81F5D11E387729001D8DE5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
